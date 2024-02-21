@@ -5,39 +5,33 @@
 body{
     background-color: #000;;
 }
-.html{
+.content {
     height: 95vh;
-    margin: 2.5vh;
+    margin: auto; /* Ustawienie marginesów na auto spowoduje, że div będzie wyśrodkowany zarówno w pionie, jak i poziomie */
     border-radius: 20px;
-    background-color: #ff5e00;
+    background-color: #fff; /* zmień kolor tła według potrzeb */
+    padding: 20px;
+    display: flex; /* Ustawienie na flex */
+    flex-direction: column; /* Ustawienie kierunku na kolumnę */
+    justify-content: center; /* Wyśrodkowanie wertykalne */
+    align-items: center; /* Wyśrodkowanie poziome */
 }
-.css{
-    height: 95vh;
-    margin: 2.5vh;
-    border-radius: 20px;
-    background-color: #0000ff;
+/* Dodatkowy styl dla przycisków */
+.arrow {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #ff0000;
+    cursor: pointer;
+    margin: 30px;
 }
-.js{
-    height: 95vh;
-    margin: 2.5vh;
-    border-radius: 20px;
-    background-color: #eaff00;
+
+#arrow-left {
+    left: 10px;
 }
-.php{
-    height: 95vh;
-    margin: 2.5vh;
-    border-radius: 20px;
-    background-color: #b700ff;
-}
-.mysql{
-    height: 95vh;
-    margin: 2.5vh;
-    border-radius: 20px;
-    background-color: #00ff1e;
-}
-.responsywnosc{
-    height: 95vh;
-    margin: 2.5vh;
-    border-radius: 20px;
-    background-color: #ff00f7;
+
+#arrow-right {
+    right: 10px;
 }
