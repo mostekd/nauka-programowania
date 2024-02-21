@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    background-color: #000;;
+}
+.html{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #ff5e00;
+}
+.css{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #0000ff;
+}
+.js{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #eaff00;
+}
+.php{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #b700ff;
+}
+.mysql{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #00ff1e;
+}
+.responsywnosc{
+    height: 95vh;
+    margin: 2.5vh;
+    border-radius: 20px;
+    background-color: #ff00f7;
+}
